@@ -1,0 +1,152 @@
+﻿Application.obj : error LNK2019: 无法解析的外部符号 __imp_glBindTexture，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp_glBindTexture
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glClear，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glClearColor，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glDisable，函数 "public: void __cdecl VCTII::Application::Voxelization(void)" (?Voxelization@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glDrawArrays，函数 "public: void __cdecl VCTII::Application::DrawVoxels(void)" (?DrawVoxels@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glDrawBuffer，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glEnable，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 __imp_glEnable
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glGenTextures，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp_glGenTextures
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glTexImage2D，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp_glTexImage2D
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glTexParameteri，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp_glTexParameteri
+Application.obj : error LNK2019: 无法解析的外部符号 __imp_glViewport，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ)，函数 "public: bool __cdecl VCTII::Application::LoadObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct glm::tvec3<float,0>,float)" (?LoadObject@Application@VCTII@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0U?$tvec3@M$0A@@glm@@M@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ)，函数 "public: bool __cdecl VCTII::Application::LoadObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct glm::tvec3<float,0>,float)" (?LoadObject@Application@VCTII@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0U?$tvec3@M$0A@@glm@@M@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z)，函数 "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ)，函数 "public: bool __cdecl VCTII::Application::LoadObject(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct glm::tvec3<float,0>,float)" (?LoadObject@Application@VCTII@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0U?$tvec3@M$0A@@glm@@M@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewTexImage3D，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewActiveTexture，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp___glewActiveTexture
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewAttachShader，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewCompileShader，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewCreateProgram，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewCreateShader，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewDeleteShader，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGetProgramInfoLog，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGetProgramiv，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGetShaderInfoLog，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGetShaderiv，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGetUniformLocation，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetUniformLocation
+Object.obj : error LNK2001: 无法解析的外部符号 __imp___glewGetUniformLocation
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewLinkProgram，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewShaderSource，函数 "public: static unsigned int __cdecl VCTII::Shader::LoadShader(char const *,char const *,char const *)" (?LoadShader@Shader@VCTII@@SAIPEBD00@Z) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewUniform1f，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform1f
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewUniform1i，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniform1i
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewUniform3f，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewUniformMatrix4fv，函数 "public: void __cdecl VCTII::Application::DrawVoxels(void)" (?DrawVoxels@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Object.obj : error LNK2001: 无法解析的外部符号 __imp___glewUniformMatrix4fv
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewUseProgram，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp___glewUseProgram
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp___glewUseProgram
+Object.obj : error LNK2001: 无法解析的外部符号 __imp___glewUseProgram
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewFramebufferTexture，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewBindFramebuffer，函数 "public: void __cdecl VCTII::Application::Draw(void)" (?Draw@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewCheckFramebufferStatus，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGenFramebuffers，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGenerateMipmap，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp___glewGenerateMipmap
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewBindImageTexture，函数 "public: void __cdecl VCTII::Application::Voxelization(void)" (?Voxelization@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewBindVertexArray，函数 "public: void __cdecl VCTII::Application::DrawVoxels(void)" (?DrawVoxels@Application@VCTII@@QEAAXXZ) 中引用了该符号
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp___glewBindVertexArray
+Application.obj : error LNK2019: 无法解析的外部符号 __imp___glewGenVertexArrays，函数 "public: bool __cdecl VCTII::Application::Init(void)" (?Init@Application@VCTII@@QEAA_NXZ) 中引用了该符号
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp___glewGenVertexArrays
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glCullFace，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glDepthFunc，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glGetError，函数 "void __cdecl PrintError(void)" (?PrintError@@YAXXZ) 中引用了该符号
+Material.obj : error LNK2001: 无法解析的外部符号 __imp_glGetError
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glewInit，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 __imp_glewExperimental，函数 main 中引用了该符号
+Material.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialFloatArray，函数 aiGetMaterialFloat 中引用了该符号
+Material.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialColor，函数 "public: enum aiReturn __cdecl aiMaterial::Get(char const *,unsigned int,unsigned int,struct aiColor3D &)const " (?Get@aiMaterial@@QEBA?AW4aiReturn@@PEBDIIAEAUaiColor3D@@@Z) 中引用了该符号
+Material.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialString，函数 "public: enum aiReturn __cdecl aiMaterial::Get(char const *,unsigned int,unsigned int,struct aiString &)const " (?Get@aiMaterial@@QEBA?AW4aiReturn@@PEBDIIAEAUaiString@@@Z) 中引用了该符号
+Material.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialTextureCount，函数 "public: unsigned int __cdecl aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QEBAIW4aiTextureType@@@Z) 中引用了该符号
+Material.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialTexture，函数 "public: enum aiReturn __cdecl aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z) 中引用了该符号
+Material.obj : error LNK2019: 无法解析的外部符号 __imp___glewUniform2f，函数 "public: void __cdecl VCTII::Material::BindMaterial(unsigned int)" (?BindMaterial@Material@VCTII@@QEAAXI@Z) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp_glDrawElements，函数 "public: void __cdecl VCTII::Mesh::DrawMeshModel(void)" (?DrawMeshModel@Mesh@VCTII@@QEAAXXZ) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp___glewBindBuffer，函数 "public: void __cdecl VCTII::Mesh::DrawMeshModel(void)" (?DrawMeshModel@Mesh@VCTII@@QEAAXXZ) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp___glewBufferData，函数 "public: void __cdecl VCTII::Mesh::LoadMesh(struct aiMesh const *)" (?LoadMesh@Mesh@VCTII@@QEAAXPEBUaiMesh@@@Z) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp___glewGenBuffers，函数 "public: void __cdecl VCTII::Mesh::LoadMesh(struct aiMesh const *)" (?LoadMesh@Mesh@VCTII@@QEAAXPEBUaiMesh@@@Z) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp___glewDisableVertexAttribArray，函数 "public: void __cdecl VCTII::Mesh::DrawMeshModel(void)" (?DrawMeshModel@Mesh@VCTII@@QEAAXXZ) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp___glewEnableVertexAttribArray，函数 "public: void __cdecl VCTII::Mesh::DrawMeshModel(void)" (?DrawMeshModel@Mesh@VCTII@@QEAAXXZ) 中引用了该符号
+Mesh.obj : error LNK2019: 无法解析的外部符号 __imp___glewVertexAttribPointer，函数 "public: void __cdecl VCTII::Mesh::DrawMeshModel(void)" (?DrawMeshModel@Mesh@VCTII@@QEAAXXZ) 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_CreateBitmap，函数 _glfwPlatformCreateCursor 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DeleteObject，函数 _glfwPlatformCreateCursor 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_CreateDIBSection，函数 _glfwPlatformCreateCursor 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_TrackMouseEvent，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_TranslateMessage，函数 _glfwPlatformPollEvents 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DispatchMessageW，函数 _glfwPlatformPollEvents 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_PeekMessageW，函数 _glfwPlatformPollEvents 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetMessageTime，函数 translateKey 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_PostMessageW，函数 _glfwPlatformPostEmptyEvent 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_WaitMessage，函数 _glfwPlatformWaitEvents 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DefWindowProcW，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_RegisterClassW，函数 _glfwRegisterWindowClass 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_UnregisterClassW，函数 _glfwUnregisterWindowClass 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_CreateWindowExW，函数 createWindow 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DestroyWindow，函数 destroyWindow 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_ShowWindow，函数 _glfwPlatformIconifyWindow 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_MoveWindow，函数 _glfwPlatformSetWindowSizeLimits 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetWindowPos，函数 _glfwPlatformSetWindowPos 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_IsWindowVisible，函数 _glfwPlatformWindowVisible 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_IsIconic，函数 _glfwPlatformWindowIconified 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_BringWindowToTop，函数 _glfwPlatformShowWindow 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_OpenClipboard，函数 _glfwPlatformSetClipboardString 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_CloseClipboard，函数 _glfwPlatformSetClipboardString 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetClipboardData，函数 _glfwPlatformSetClipboardString 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetClipboardData，函数 _glfwPlatformGetClipboardString 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_EmptyClipboard，函数 _glfwPlatformSetClipboardString 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetFocus，函数 _glfwPlatformShowWindow 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetActiveWindow，函数 _glfwPlatformWindowFocused 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetKeyState，函数 getKeyMods 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetAsyncKeyState，函数 _glfwPlatformPollEvents 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetCapture，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_ReleaseCapture，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetForegroundWindow，函数 _glfwPlatformShowWindow 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetDC，函数 _glfwPlatformCreateCursor 中引用了该符号
+glfw3.lib(wgl_context.obj) : error LNK2001: 无法解析的外部符号 __imp_GetDC
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_ReleaseDC，函数 _glfwPlatformCreateCursor 中引用了该符号
+glfw3.lib(wgl_context.obj) : error LNK2001: 无法解析的外部符号 __imp_ReleaseDC
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetWindowTextW，函数 _glfwPlatformSetWindowTitle 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetClientRect，函数 _glfwPlatformGetWindowSize 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetWindowRect，函数 _glfwPlatformSetWindowSizeLimits 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_AdjustWindowRectEx，函数 _glfwPlatformSetWindowPos 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetCursorPos，函数 _glfwPlatformSetCursorPos 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetCursor，函数 _glfwPlatformSetCursorMode 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetCursorPos，函数 _glfwPlatformGetCursorPos 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_ClientToScreen，函数 _glfwPlatformSetCursorPos 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_ScreenToClient，函数 _glfwPlatformGetCursorPos 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_WindowFromPoint，函数 _glfwPlatformSetCursorMode 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_ClipCursor，函数 _glfwPlatformSetCursorMode 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetRect，函数 _glfwPlatformGetWindowFrameSize 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_GetWindowLongPtrW，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_SetWindowLongPtrW，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_LoadCursorW，函数 _glfwRegisterWindowClass 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DestroyIcon，函数 _glfwPlatformDestroyCursor 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_LoadImageW，函数 _glfwRegisterWindowClass 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_CreateIconIndirect，函数 _glfwPlatformCreateCursor 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_CopyIcon，函数 _glfwPlatformCreateStandardCursor 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DragQueryFileW，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DragQueryPoint，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DragFinish，函数 windowProc 中引用了该符号
+glfw3.lib(win32_window.obj) : error LNK2019: 无法解析的外部符号 __imp_DragAcceptFiles，函数 createWindow 中引用了该符号
+glfw3.lib(win32_init.obj) : error LNK2019: 无法解析的外部符号 __imp_SystemParametersInfoW，函数 _glfwPlatformInit 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_CreateDCW，函数 _glfwPlatformGetMonitors 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_DeleteDC，函数 _glfwPlatformGetMonitors 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_GetDeviceCaps，函数 _glfwPlatformGetMonitors 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_GetDeviceGammaRamp，函数 _glfwPlatformGetGammaRamp 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_SetDeviceGammaRamp，函数 _glfwPlatformSetGammaRamp 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_ChangeDisplaySettingsExW，函数 _glfwSetVideoMode 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_EnumDisplaySettingsW，函数 _glfwPlatformGetVideoModes 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_EnumDisplaySettingsExW，函数 _glfwPlatformGetMonitorPos 中引用了该符号
+glfw3.lib(win32_monitor.obj) : error LNK2019: 无法解析的外部符号 __imp_EnumDisplayDevicesW，函数 _glfwPlatformGetMonitors 中引用了该符号
+glfw3.lib(wgl_context.obj) : error LNK2019: 无法解析的外部符号 __imp_DescribePixelFormat，函数 _glfwCreateContext 中引用了该符号
+glfw3.lib(wgl_context.obj) : error LNK2019: 无法解析的外部符号 __imp_SetPixelFormat，函数 _glfwCreateContext 中引用了该符号
+glfw3.lib(wgl_context.obj) : error LNK2019: 无法解析的外部符号 __imp_SwapBuffers，函数 _glfwPlatformSwapBuffers 中引用了该符号
+E:\HPGE\MSC project\my_project\my_Project\x64\Debug\my_Project.exe : fatal error LNK1120: 131 个无法解析的外部命令
